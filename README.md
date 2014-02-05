@@ -5,7 +5,7 @@ This project lets developers implement Cloud PBX using [VoxImplant](http://voxim
 For this project we consider that:
 <ol>
 <li>VoxImplant Application Users = PBX extensions</li>
-<li>PBX extensions can be registered using SIP or [VoxImplant Web SDK](https://voximplant.com/docs/references/websdk/)</li>
+<li>PBX extensions can be registered using SIP or [VoxImplant Web SDK](https://voximplant.com/docs/references/websdk/) </li>
 <li>Script modification is required if you want to forward incoming calls to real phone numbers instead of SIP/Web SDK</li>
 <li>Extensions that will be used as operators receiving incoming calls can be specified in configuration variable</li>
 </ol>
