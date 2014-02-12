@@ -16,13 +16,13 @@ This project contains 3 types of scenarios used for call processing:
 * pbx_local - script is used to process local calls between PBX extensions.
 * pbx_out - script is used to process outbound calls to PSTN.
 
-Quickstart
+## Quickstart
 After you successfully created and activated your VoxImplant developer account you need to login into [VoxImplant admin interface](https://manage.voximplant.com/) and complete these steps to have your PBX up and running:
 <ol>
 <li>Create 3 scenarios in Scenarios tab by copying and pasting the code provided ( pbx_in, pbx_local, pbx_out ) </li>
 <li>Create couple of users in Users tab, please remember that they will be registered on VoxImplant as PBX extensions if you use SIP phones to make/receive calls</li>
 <li>Customize scenarios according to your requirements and users you created</li>
 <li>Create application in Applications tab and specify Rules for the application to launch scenarios according to the specified Rule's Pattern</li>
-<li>Register your SIP phones using users credentials you specified (2nd step), full username will look like sip:USERNAME@APPNAME.ACCOUNTNAME.voximplant.com. They should act like PBX extensions, so you should be able to make calls between extensions and to phone numbers at the moment./li>
-<li>Depending on Rules you specified (4th step) you can also make a call to PBX from outside to test incoming call scenario. If you want to connect existing phone number using SIP or allow receiving SIP calls you should authorize IP address/network used for that at [Settings->SIP](https://manage.voximplant.com/#sip)</li>
+<li>Register your SIP phones using users credentials you specified (2nd step), full username will look like sip:USERNAME@APPNAME.ACCOUNTNAME.voximplant.com. They should act like PBX extensions, so you should be able to make calls between extensions and to phone numbers at the moment.</li>
+<li>Depending on Rules you specified (4th step) you can also make a call to PBX from outside to test incoming call scenario. If you want to connect existing phone number using SIP or allow receiving SIP calls you should authorize IP address/network used for that at [Settings->SIP](https://manage.voximplant.com/#sip) </li>
 </ol>
