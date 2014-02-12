@@ -24,5 +24,5 @@ After you successfully created and activated your VoxImplant developer account y
 <li>Customize scenarios according to your requirements and users you created</li>
 <li>Create application in Applications tab and specify Rules for the application to launch scenarios according to the specified Rule's Pattern</li>
 <li>Register your SIP phones using users credentials you specified (2nd step), full username will look like sip:USERNAME@APPNAME.ACCOUNTNAME.voximplant.com. They should act like PBX extensions, so you should be able to make calls between extensions and to phone numbers at the moment.</li>
-<li>Depending on Rules you specified (4th step) you can also make a call to PBX from outside to test incoming call scenario. If you want to connect existing phone number using SIP or allow receiving SIP calls you should authorize IP address/network used for that at [Settings->SIP](https://manage.voximplant.com/#sip) </li>
+<li>Depending on Rules you specified (4th step) you can also make a call to PBX from outside to test incoming call scenario. If you want to connect existing phone number using SIP or allow receiving SIP calls you should authorize IP address/network used for that at <a href="https://manage.voximplant.com/#sip">Settings->SIP</a> </li>
 </ol>
