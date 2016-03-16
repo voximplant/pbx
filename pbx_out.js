@@ -3,6 +3,8 @@
  * Rule should be specified for VoxImplant application to run the script
  * Default pattern: [0-9]+
  */
+var officeNumber = "xxxx"; // Insert here your number
+
 VoxEngine.addEventListener(AppEvents.CallAlerting, function(e) {
         // make call to PSTN, see http://voximplant.com/docs/references/appengine/VoxEngine.html#callPSTN for details
         var call2 = VoxEngine.callPSTN(e.destination.substring(1), officeNumber);
